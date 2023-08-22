@@ -2,10 +2,6 @@
 
 Este projeto visa realizar a rotação de endereços IP utilizando os países e cidades disponíveis na Mullvad VPN. O processo de rotação é automatizado para ocorrer a cada 30 segundos, por padrão.
 
-## Objetivo
-
-O objetivo deste projeto é automatizar a rotação de IP utilizando a funcionalidade de relays da Mullvad VPN, permitindo que você utilize endereços IP de diferentes países e cidades.
-
 ## Como funciona
 
 1. O script executa o comando `mullvad relay list` para obter a lista de relays disponíveis na Mullvad VPN.
