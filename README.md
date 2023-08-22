@@ -23,4 +23,6 @@ chmod +x mullvad-auto-relay.sh
 
 Certifique-se de ler e entender a [documentação oficial da Mullvad](https://mullvad.net/pt/help/how-use-mullvad-cli/) antes de usar este projeto. A rotação de IP pode ter implicações legais e éticas, portanto, use este projeto com responsabilidade.
 
+Ative o `Kill switch` e `Lockdown mode`
+
 Este projeto foi criado para fins educacionais e não possui afiliação com a Mullvad VPN.
