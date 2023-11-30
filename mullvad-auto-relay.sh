@@ -8,10 +8,10 @@ while IFS= read -r line; do
     words=($line)
     if [[ ${#words[@]} -gt 0 && ${#words[0]} -gt 0 && $(grep -o "-" <<< "${words[0]}" | wc -l) -ge 1 ]]; then
         hostname="${words[0]}"
-        echo "Processando hostname: $hostname"
-        mullvad relay set hostname "$hostname"
+        echo "Processando location: $hostname"
+        mullvad relay set location "$hostname"
         curl ifconfig.me
         echo ""
-        sleep 30
+        sleep 2
     fi
 done < "output.txt"
